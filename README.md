@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/bytekast/serverless-deploy.svg?branch=master)](https://travis-ci.org/bytekast/serverless-deploy)
 # serverless-deploy
 Generic Gradle + Serverless deployment job for Travis
 

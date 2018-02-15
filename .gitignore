@@ -17,3 +17,4 @@
 deploy/
 gradle.properties
 
+!gradle/wrapper/*

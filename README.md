@@ -12,6 +12,7 @@ body='{
         "SERVICE_GROUP" : "com.github.bytekast",
         "SERVICE_NAME" : "demo",
         "SERVICE_VERSION" : "master-SNAPSHOT",
+        "AWS_PROFILE" : "dev",
         "AWS_ACCESS_KEY_ID" : "XXXXXXXXXXXXXXXXXX",
         "AWS_SECRET_ACCESS_KEY" : "XXXXXXXXXXXXXXXXXX"
       }

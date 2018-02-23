@@ -15,5 +15,5 @@ before_deploy:
   - "cd ./build/deploy"
 deploy:
   provider: script
-  script: serverless deploy
+  script: ./deploy.sh
   skip_cleanup: true

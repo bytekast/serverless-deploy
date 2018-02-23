@@ -5,4 +5,4 @@ provider:
   name: aws
   runtime: java8
   timeout: 300
-  profile: bytekast
+  profile: ${opt:stage, 'dev'}

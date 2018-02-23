@@ -4,7 +4,6 @@ jdk:
 before_script:
   - chmod +x gradlew
   - chmod +x .travis_aws.sh
-  - chmod +x deploy.sh
   - "./.travis_aws.sh"
 before_install:
   - npm i -g serverless@1.26.0
@@ -16,5 +15,5 @@ before_deploy:
   - "cd ./build/deploy"
 deploy:
   provider: script
-  script: "./deploy.sh"
+  script: serverless deploy --stage $AWS_PROFILE
   skip_cleanup: true
